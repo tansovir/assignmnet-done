@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.w-50{
+    width: 50%;
+    float: left;
+}
+.w-33{
+    width: 33.33%;
+    float: left;
+}
+h1, h2{
+    font-family: 'Bebas Neue', cursive;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 20px 50px;
+    border-radius: 5px;
+    color: #fff;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+    clear: left;
+}
+body{
+    margin: 0 auto;
+    width:80%;
+    font-family: 'Roboto', sans-serif;
+}
+/* navbar section */
+#navbar{
+    height: 100px;
+    width: 100%;
+}
+#navbar ul{
+    margin-left: auto;
+    width: 264px;
+    padding: 20px 0;
+}
+#navbar ul li{
+    float: left;
+    list-style-type: none;
+}
+#navbar ul li a{
+    padding: 10px 0 10px 15px;
+    text-decoration: none;
+}
+
+/* hero section */
+#hero{
+    width: 100%;
+}
+#hero h1{
+    text-transform: uppercase;
+    font-size: 120px;
+    font-family: 'Bebas Neue', cursive;
+}
+#hero h1 span{
+    display: block;
+}
+#hero p{
+    font-size: 33px;
+    font-family: 'Roboto', sans-serif;
+}
+#hero a{
+    
+}
+#hero img{
+    width: 100%;
+}
+
+/* about section */
+#about{}
+#about img{}
+#about h2{
+    font-size: 100px;
+}
+#about p{
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+#about a{
+}
+
+/* work section */
+#work{}
+#work h2{
+    font-size: 100px;
+    text-align: center;
+}
+#work h2 span{}
+#work .latest-work{}
+#work .latest-work img{}
+#work .latest-work h3{}
+#work .latest-work p{}
+
+/* contact section */
+#contact{}
+#contact .contact-bg{
+    background-image: url("../images/bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: hei;
+    height: 314px;
+}
+#contact .contact-bg h2{
+    float: left;
+    margin-top: 126px;
+    margin-left: 100px;
+    font-size: 50px;
+}
+#contact .contact-bg a{
+    float: right;
+    margin-top: 126px;
+    margin-right: 100px;
+}
+
+/* footer */
+#footer{text-align: center;}
+#footer h4{ }
+#footer p{ }
+#footer .social-icon{ }
+#footer .social-icon li{ }
+#footer .social-icon li a{ }
